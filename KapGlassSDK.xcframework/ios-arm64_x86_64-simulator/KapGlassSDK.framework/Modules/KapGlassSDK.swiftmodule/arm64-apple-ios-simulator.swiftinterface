@@ -1,0 +1,146 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KapGlassSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import AVFAudio
+import CoreBluetooth
+import CryptoKit
+import Foundation
+import Network
+import NetworkExtension
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public struct WifiInfo : Swift.Codable {
+  public var ssid: Swift.String
+  public var password: Swift.String
+  public init(name: Swift.String, passworld: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AudioFormat : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func toNativeAudioFormat() -> AVFAudio.AVAudioFormat?
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RecognizeInfo : Swift.Codable {
+  public var recognizeNumber: Swift.Int32
+  public var recognizing: Swift.String?
+  public var recognized: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(recognizeNumber: Swift.Int32, recognizing: Swift.String? = nil, recognized: Swift.String? = nil)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Ota45FileInfo {
+  public var aiglass_upgrade_file: Foundation.URL
+  public var aiglass_upgrade_ars45_file: Foundation.URL
+  public init(aiglass_upgrade_file: Foundation.URL, aiglass_upgrade_ars45_file: Foundation.URL)
+}
+public protocol AudioTranslator : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func translateWillBegin(audioFormat: KapGlassSDK.AudioFormat, audioStreamChannel: KapGlassSDK.AudioStreamChannel, listenner: (any KapGlassSDK.AudioTranslatorListener)?)
+  #endif
+  func translateWillEnd()
+}
+public protocol AudioTranslatorListener : AnyObject {
+  func translatorDidStopByUser()
+  func translatorDidReceivedResult(reco_info: KapGlassSDK.RecognizeInfo)
+}
+public protocol KapGlassManagerDelegate : AnyObject {
+  func glassManagerDidStartScan(_ manager: KapGlassSDK.KapGlassManager)
+  func glassManagerDidStopScan(_ manager: KapGlassSDK.KapGlassManager)
+  func glassManager(_ manager: KapGlassSDK.KapGlassManager, discoveryed glass: KapGlassSDK.KapGlass)
+  func glassManager(_manager: KapGlassSDK.KapGlassManager, didConnected glass: KapGlassSDK.KapGlass)
+  func glassManager(_manager: KapGlassSDK.KapGlassManager, didDisconnected glass: KapGlassSDK.KapGlass)
+}
+@_hasMissingDesignatedInitializers public class KapGlass : Swift.Equatable {
+  public static func == (lhs: KapGlassSDK.KapGlass, rhs: KapGlassSDK.KapGlass) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var name: Swift.String? {
+    get
+  }
+  #endif
+  @objc deinit
+}
+public enum KapErrorCode : Swift.Int {
+  case kSuccessed
+  case kUnknowError
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class KapGlassManager {
+  public static let shareInstance: KapGlassSDK.KapGlassManager
+  weak public var delegate: (any KapGlassSDK.KapGlassManagerDelegate)?
+  weak public var audioTranslator: (any KapGlassSDK.AudioTranslator)?
+  public func startScanGlass() -> KapGlassSDK.KapErrorCode
+  public func stopScanGlass() -> KapGlassSDK.KapErrorCode
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func connectGlass(glass: KapGlassSDK.KapGlass, complete: ((_ code: KapGlassSDK.KapErrorCode) -> Swift.Void)?)
+  #endif
+  public func disconnectGlass(glass: KapGlassSDK.KapGlass)
+  public typealias Response = (_ code: KapGlassSDK.KapErrorCode) -> Swift.Void
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func capturePhoto(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startVideo(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func stopVideo(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startAudio(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func stopAudio(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func connectWifi(wifi: KapGlassSDK.WifiInfo, response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func disConnectWifi(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  public typealias LoadMediaFileResponse = (_ code: KapGlassSDK.KapErrorCode, _ fileUrls: [Foundation.URL]?) -> Swift.Void
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func loadMediaFiles(timeout: Foundation.TimeInterval, response: KapGlassSDK.KapGlassManager.LoadMediaFileResponse?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func clearMediaFiles(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  public typealias OTAProgressBlock = (_ total: Swift.Int, _ uploaded: Swift.Int) -> Swift.Void
+  public typealias OTACompleteBlock = (_ code: KapGlassSDK.KapErrorCode) -> Swift.Void
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startOta2800(filePath: Foundation.URL, with progress: KapGlassSDK.KapGlassManager.OTAProgressBlock?, and complete: KapGlassSDK.KapGlassManager.OTACompleteBlock?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startOta45(fileInfo: KapGlassSDK.Ota45FileInfo, with progress: KapGlassSDK.KapGlassManager.OTAProgressBlock?, and complete: KapGlassSDK.KapGlassManager.OTACompleteBlock?)
+  #endif
+  @objc deinit
+}
+extension KapGlassSDK.KapGlassManager : KapGlassSDK.AudioTranslatorListener {
+  public func translatorDidStopByUser()
+  public func translatorDidReceivedResult(reco_info: KapGlassSDK.RecognizeInfo)
+}
+public class AudioStreamChannel {
+  public typealias ReceiveAudioBufferBlock = (_ pmc: Foundation.Data) -> Swift.Void
+  public var recevieAudioBlock: KapGlassSDK.AudioStreamChannel.ReceiveAudioBufferBlock?
+  public init(port: Swift.UInt16)
+  @objc deinit
+  public func startConnect() -> Swift.Bool
+  public func disConnect()
+}
+extension KapGlassSDK.KapErrorCode : Swift.Equatable {}
+extension KapGlassSDK.KapErrorCode : Swift.Hashable {}
+extension KapGlassSDK.KapErrorCode : Swift.RawRepresentable {}

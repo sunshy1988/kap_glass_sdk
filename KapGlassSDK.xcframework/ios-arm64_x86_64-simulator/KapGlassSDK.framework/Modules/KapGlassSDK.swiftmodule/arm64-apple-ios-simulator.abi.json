@@ -1,0 +1,4132 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "KapGlassSDK",
+    "printedName": "KapGlassSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WifiInfo",
+        "printedName": "WifiInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ssid",
+            "printedName": "ssid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK8WifiInfoV4ssidSSvp",
+            "mangledName": "$s11KapGlassSDK8WifiInfoV4ssidSSvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK8WifiInfoV4ssidSSvg",
+                "mangledName": "$s11KapGlassSDK8WifiInfoV4ssidSSvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK8WifiInfoV4ssidSSvs",
+                "mangledName": "$s11KapGlassSDK8WifiInfoV4ssidSSvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK8WifiInfoV4ssidSSvM",
+                "mangledName": "$s11KapGlassSDK8WifiInfoV4ssidSSvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "password",
+            "printedName": "password",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK8WifiInfoV8passwordSSvp",
+            "mangledName": "$s11KapGlassSDK8WifiInfoV8passwordSSvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK8WifiInfoV8passwordSSvg",
+                "mangledName": "$s11KapGlassSDK8WifiInfoV8passwordSSvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK8WifiInfoV8passwordSSvs",
+                "mangledName": "$s11KapGlassSDK8WifiInfoV8passwordSSvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK8WifiInfoV8passwordSSvM",
+                "mangledName": "$s11KapGlassSDK8WifiInfoV8passwordSSvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:passworld:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiInfo",
+                "printedName": "KapGlassSDK.WifiInfo",
+                "usr": "s:11KapGlassSDK8WifiInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK8WifiInfoV4name9passworldACSS_SStcfc",
+            "mangledName": "$s11KapGlassSDK8WifiInfoV4name9passworldACSS_SStcfc",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WifiInfo",
+                "printedName": "KapGlassSDK.WifiInfo",
+                "usr": "s:11KapGlassSDK8WifiInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK8WifiInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11KapGlassSDK8WifiInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK8WifiInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11KapGlassSDK8WifiInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11KapGlassSDK8WifiInfoV",
+        "mangledName": "$s11KapGlassSDK8WifiInfoV",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AudioFormat",
+        "printedName": "AudioFormat",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toNativeAudioFormat",
+            "printedName": "toNativeAudioFormat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFAudio.AVAudioFormat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAudioFormat",
+                    "printedName": "AVFAudio.AVAudioFormat",
+                    "usr": "c:objc(cs)AVAudioFormat"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK11AudioFormatV08toNativedE0So07AVAudioE0CSgyF",
+            "mangledName": "$s11KapGlassSDK11AudioFormatV08toNativedE0So07AVAudioE0CSgyF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AudioFormat",
+                "printedName": "KapGlassSDK.AudioFormat",
+                "usr": "s:11KapGlassSDK11AudioFormatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK11AudioFormatV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11KapGlassSDK11AudioFormatV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK11AudioFormatV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11KapGlassSDK11AudioFormatV6encode2toys7Encoder_p_tKF",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11KapGlassSDK11AudioFormatV",
+        "mangledName": "$s11KapGlassSDK11AudioFormatV",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecognizeInfo",
+        "printedName": "RecognizeInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "recognizeNumber",
+            "printedName": "recognizeNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32Vvp",
+            "mangledName": "$s11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32Vvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32Vvg",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32Vvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32Vvs",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32Vvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32VvM",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV15recognizeNumbers5Int32VvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recognizing",
+            "printedName": "recognizing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK13RecognizeInfoV11recognizingSSSgvp",
+            "mangledName": "$s11KapGlassSDK13RecognizeInfoV11recognizingSSSgvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV11recognizingSSSgvg",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV11recognizingSSSgvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV11recognizingSSSgvs",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV11recognizingSSSgvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV11recognizingSSSgvM",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV11recognizingSSSgvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recognized",
+            "printedName": "recognized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK13RecognizeInfoV10recognizedSSSgvp",
+            "mangledName": "$s11KapGlassSDK13RecognizeInfoV10recognizedSSSgvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV10recognizedSSSgvg",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV10recognizedSSSgvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV10recognizedSSSgvs",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV10recognizedSSSgvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV10recognizedSSSgvM",
+                "mangledName": "$s11KapGlassSDK13RecognizeInfoV10recognizedSSSgvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(recognizeNumber:recognizing:recognized:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecognizeInfo",
+                "printedName": "KapGlassSDK.RecognizeInfo",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK13RecognizeInfoV15recognizeNumber11recognizing10recognizedACs5Int32V_SSSgAItcfc",
+            "mangledName": "$s11KapGlassSDK13RecognizeInfoV15recognizeNumber11recognizing10recognizedACs5Int32V_SSSgAItcfc",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecognizeInfo",
+                "printedName": "KapGlassSDK.RecognizeInfo",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK13RecognizeInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11KapGlassSDK13RecognizeInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK13RecognizeInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11KapGlassSDK13RecognizeInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11KapGlassSDK13RecognizeInfoV",
+        "mangledName": "$s11KapGlassSDK13RecognizeInfoV",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Ota45FileInfo",
+        "printedName": "Ota45FileInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "aiglass_upgrade_file",
+            "printedName": "aiglass_upgrade_file",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvp",
+            "mangledName": "$s11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvg",
+                "mangledName": "$s11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvs",
+                "mangledName": "$s11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvM",
+                "mangledName": "$s11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file10Foundation3URLVvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aiglass_upgrade_ars45_file",
+            "printedName": "aiglass_upgrade_ars45_file",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvp",
+            "mangledName": "$s11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvg",
+                "mangledName": "$s11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvs",
+                "mangledName": "$s11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvM",
+                "mangledName": "$s11KapGlassSDK13Ota45FileInfoV26aiglass_upgrade_ars45_file10Foundation3URLVvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(aiglass_upgrade_file:aiglass_upgrade_ars45_file:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Ota45FileInfo",
+                "printedName": "KapGlassSDK.Ota45FileInfo",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file0g1_h7_ars45_I0AC10Foundation3URLV_AHtcfc",
+            "mangledName": "$s11KapGlassSDK13Ota45FileInfoV20aiglass_upgrade_file0g1_h7_ars45_I0AC10Foundation3URLV_AHtcfc",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11KapGlassSDK13Ota45FileInfoV",
+        "mangledName": "$s11KapGlassSDK13Ota45FileInfoV",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AudioTranslator",
+        "printedName": "AudioTranslator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "translateWillBegin",
+            "printedName": "translateWillBegin(audioFormat:audioStreamChannel:listenner:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AudioFormat",
+                "printedName": "KapGlassSDK.AudioFormat",
+                "usr": "s:11KapGlassSDK11AudioFormatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AudioStreamChannel",
+                "printedName": "KapGlassSDK.AudioStreamChannel",
+                "usr": "s:11KapGlassSDK18AudioStreamChannelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any KapGlassSDK.AudioTranslatorListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AudioTranslatorListener",
+                    "printedName": "any KapGlassSDK.AudioTranslatorListener",
+                    "usr": "s:11KapGlassSDK23AudioTranslatorListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK15AudioTranslatorP18translateWillBegin11audioFormat0I13StreamChannel9listenneryAA0dJ0V_AA0dkL0CAA0dE8Listener_pSgtF",
+            "mangledName": "$s11KapGlassSDK15AudioTranslatorP18translateWillBegin11audioFormat0I13StreamChannel9listenneryAA0dJ0V_AA0dkL0CAA0dE8Listener_pSgtF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.AudioTranslator>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.AudioTranslator>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "translateWillEnd",
+            "printedName": "translateWillEnd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK15AudioTranslatorP16translateWillEndyyF",
+            "mangledName": "$s11KapGlassSDK15AudioTranslatorP16translateWillEndyyF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.AudioTranslator>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.AudioTranslator>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11KapGlassSDK15AudioTranslatorP",
+        "mangledName": "$s11KapGlassSDK15AudioTranslatorP",
+        "moduleName": "KapGlassSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AudioTranslatorListener",
+        "printedName": "AudioTranslatorListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "translatorDidStopByUser",
+            "printedName": "translatorDidStopByUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK23AudioTranslatorListenerP23translatorDidStopByUseryyF",
+            "mangledName": "$s11KapGlassSDK23AudioTranslatorListenerP23translatorDidStopByUseryyF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.AudioTranslatorListener>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.AudioTranslatorListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "translatorDidReceivedResult",
+            "printedName": "translatorDidReceivedResult(reco_info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecognizeInfo",
+                "printedName": "KapGlassSDK.RecognizeInfo",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK23AudioTranslatorListenerP27translatorDidReceivedResult9reco_infoyAA13RecognizeInfoV_tF",
+            "mangledName": "$s11KapGlassSDK23AudioTranslatorListenerP27translatorDidReceivedResult9reco_infoyAA13RecognizeInfoV_tF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.AudioTranslatorListener>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.AudioTranslatorListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11KapGlassSDK23AudioTranslatorListenerP",
+        "mangledName": "$s11KapGlassSDK23AudioTranslatorListenerP",
+        "moduleName": "KapGlassSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KapGlassManagerDelegate",
+        "printedName": "KapGlassManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "glassManagerDidStartScan",
+            "printedName": "glassManagerDidStartScan(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlassManager",
+                "printedName": "KapGlassSDK.KapGlassManager",
+                "usr": "s:11KapGlassSDK0aB7ManagerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB15ManagerDelegateP05glassD12DidStartScanyyAA0abD0CF",
+            "mangledName": "$s11KapGlassSDK0aB15ManagerDelegateP05glassD12DidStartScanyyAA0abD0CF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.KapGlassManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.KapGlassManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "glassManagerDidStopScan",
+            "printedName": "glassManagerDidStopScan(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlassManager",
+                "printedName": "KapGlassSDK.KapGlassManager",
+                "usr": "s:11KapGlassSDK0aB7ManagerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB15ManagerDelegateP05glassD11DidStopScanyyAA0abD0CF",
+            "mangledName": "$s11KapGlassSDK0aB15ManagerDelegateP05glassD11DidStopScanyyAA0abD0CF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.KapGlassManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.KapGlassManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "glassManager",
+            "printedName": "glassManager(_:discoveryed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlassManager",
+                "printedName": "KapGlassSDK.KapGlassManager",
+                "usr": "s:11KapGlassSDK0aB7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB15ManagerDelegateP05glassD0_11discoveryedyAA0abD0C_AA0aB0CtF",
+            "mangledName": "$s11KapGlassSDK0aB15ManagerDelegateP05glassD0_11discoveryedyAA0abD0C_AA0aB0CtF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.KapGlassManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.KapGlassManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "glassManager",
+            "printedName": "glassManager(_manager:didConnected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlassManager",
+                "printedName": "KapGlassSDK.KapGlassManager",
+                "usr": "s:11KapGlassSDK0aB7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB15ManagerDelegateP05glassD08_manager12didConnectedyAA0abD0C_AA0aB0CtF",
+            "mangledName": "$s11KapGlassSDK0aB15ManagerDelegateP05glassD08_manager12didConnectedyAA0abD0C_AA0aB0CtF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.KapGlassManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.KapGlassManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "glassManager",
+            "printedName": "glassManager(_manager:didDisconnected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlassManager",
+                "printedName": "KapGlassSDK.KapGlassManager",
+                "usr": "s:11KapGlassSDK0aB7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB15ManagerDelegateP05glassD08_manager15didDisconnectedyAA0abD0C_AA0aB0CtF",
+            "mangledName": "$s11KapGlassSDK0aB15ManagerDelegateP05glassD08_manager15didDisconnectedyAA0abD0C_AA0aB0CtF",
+            "moduleName": "KapGlassSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : KapGlassSDK.KapGlassManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : KapGlassSDK.KapGlassManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11KapGlassSDK0aB15ManagerDelegateP",
+        "mangledName": "$s11KapGlassSDK0aB15ManagerDelegateP",
+        "moduleName": "KapGlassSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KapGlass",
+        "printedName": "KapGlass",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB0C2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11KapGlassSDK0aB0C2eeoiySbAC_ACtFZ",
+            "moduleName": "KapGlassSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK0aB0C4nameSSSgvp",
+            "mangledName": "$s11KapGlassSDK0aB0C4nameSSSgvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB0C4nameSSSgvg",
+                "mangledName": "$s11KapGlassSDK0aB0C4nameSSSgvg",
+                "moduleName": "KapGlassSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11KapGlassSDK0aB0C",
+        "mangledName": "$s11KapGlassSDK0aB0C",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KapErrorCode",
+        "printedName": "KapErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "kSuccessed",
+            "printedName": "kSuccessed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KapGlassSDK.KapErrorCode.Type) -> KapGlassSDK.KapErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KapErrorCode",
+                    "printedName": "KapGlassSDK.KapErrorCode",
+                    "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KapGlassSDK.KapErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11KapGlassSDK0A9ErrorCodeO10kSuccessedyA2CmF",
+            "mangledName": "$s11KapGlassSDK0A9ErrorCodeO10kSuccessedyA2CmF",
+            "moduleName": "KapGlassSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "kUnknowError",
+            "printedName": "kUnknowError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KapGlassSDK.KapErrorCode.Type) -> KapGlassSDK.KapErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KapErrorCode",
+                    "printedName": "KapGlassSDK.KapErrorCode",
+                    "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KapGlassSDK.KapErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11KapGlassSDK0A9ErrorCodeO07kUnknowD0yA2CmF",
+            "mangledName": "$s11KapGlassSDK0A9ErrorCodeO07kUnknowD0yA2CmF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KapGlassSDK.KapErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KapErrorCode",
+                    "printedName": "KapGlassSDK.KapErrorCode",
+                    "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK0A9ErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11KapGlassSDK0A9ErrorCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK0A9ErrorCodeO8rawValueSivp",
+            "mangledName": "$s11KapGlassSDK0A9ErrorCodeO8rawValueSivp",
+            "moduleName": "KapGlassSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0A9ErrorCodeO8rawValueSivg",
+                "mangledName": "$s11KapGlassSDK0A9ErrorCodeO8rawValueSivg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11KapGlassSDK0A9ErrorCodeO",
+        "mangledName": "$s11KapGlassSDK0A9ErrorCodeO",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KapGlassManager",
+        "printedName": "KapGlassManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shareInstance",
+            "printedName": "shareInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlassManager",
+                "printedName": "KapGlassSDK.KapGlassManager",
+                "usr": "s:11KapGlassSDK0aB7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK0aB7ManagerC13shareInstanceACvpZ",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC13shareInstanceACvpZ",
+            "moduleName": "KapGlassSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KapGlassManager",
+                    "printedName": "KapGlassSDK.KapGlassManager",
+                    "usr": "s:11KapGlassSDK0aB7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC13shareInstanceACvgZ",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC13shareInstanceACvgZ",
+                "moduleName": "KapGlassSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any KapGlassSDK.KapGlassManagerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvp",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any KapGlassSDK.KapGlassManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapGlassManagerDelegate",
+                        "printedName": "any KapGlassSDK.KapGlassManagerDelegate",
+                        "usr": "s:11KapGlassSDK0aB15ManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvg",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any KapGlassSDK.KapGlassManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapGlassManagerDelegate",
+                        "printedName": "any KapGlassSDK.KapGlassManagerDelegate",
+                        "usr": "s:11KapGlassSDK0aB15ManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvs",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvM",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC8delegateAA0abD8Delegate_pSgvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audioTranslator",
+            "printedName": "audioTranslator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any KapGlassSDK.AudioTranslator)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvp",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any KapGlassSDK.AudioTranslator)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AudioTranslator",
+                        "printedName": "any KapGlassSDK.AudioTranslator",
+                        "usr": "s:11KapGlassSDK15AudioTranslatorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvg",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any KapGlassSDK.AudioTranslator)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AudioTranslator",
+                        "printedName": "any KapGlassSDK.AudioTranslator",
+                        "usr": "s:11KapGlassSDK15AudioTranslatorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvs",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvM",
+                "mangledName": "$s11KapGlassSDK0aB7ManagerC15audioTranslatorAA05AudioF0_pSgvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startScanGlass",
+            "printedName": "startScanGlass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KapErrorCode",
+                "printedName": "KapGlassSDK.KapErrorCode",
+                "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC09startScanB0AA0A9ErrorCodeOyF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC09startScanB0AA0A9ErrorCodeOyF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanGlass",
+            "printedName": "stopScanGlass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KapErrorCode",
+                "printedName": "KapGlassSDK.KapErrorCode",
+                "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC08stopScanB0AA0A9ErrorCodeOyF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC08stopScanB0AA0A9ErrorCodeOyF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectGlass",
+            "printedName": "connectGlass(glass:complete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC07connectB05glass8completeyAA0aB0C_yAA0A9ErrorCodeOcSgtF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC07connectB05glass8completeyAA0aB0C_yAA0A9ErrorCodeOcSgtF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectGlass",
+            "printedName": "disconnectGlass(glass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KapGlass",
+                "printedName": "KapGlassSDK.KapGlass",
+                "usr": "s:11KapGlassSDK0aB0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC010disconnectB05glassyAA0aB0C_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC010disconnectB05glassyAA0aB0C_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "capturePhoto",
+            "printedName": "capturePhoto(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC12capturePhoto8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC12capturePhoto8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVideo",
+            "printedName": "startVideo(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC10startVideo8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC10startVideo8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopVideo",
+            "printedName": "stopVideo(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC9stopVideo8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC9stopVideo8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startAudio",
+            "printedName": "startAudio(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC10startAudio8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC10startAudio8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopAudio",
+            "printedName": "stopAudio(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC9stopAudio8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC9stopAudio8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectWifi",
+            "printedName": "connectWifi(wifi:response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WifiInfo",
+                "printedName": "KapGlassSDK.WifiInfo",
+                "usr": "s:11KapGlassSDK8WifiInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC11connectWifi4wifi8responseyAA0F4InfoV_yAA0A9ErrorCodeOcSgtF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC11connectWifi4wifi8responseyAA0F4InfoV_yAA0A9ErrorCodeOcSgtF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disConnectWifi",
+            "printedName": "disConnectWifi(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC14disConnectWifi8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC14disConnectWifi8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadMediaFiles",
+            "printedName": "loadMediaFiles(timeout:response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode, [Foundation.URL]?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode, [Foundation.URL]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(KapGlassSDK.KapErrorCode, [Foundation.URL]?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KapErrorCode",
+                            "printedName": "KapGlassSDK.KapErrorCode",
+                            "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[Foundation.URL]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[Foundation.URL]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "URL",
+                                    "printedName": "Foundation.URL",
+                                    "usr": "s:10Foundation3URLV"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC14loadMediaFiles7timeout8responseySd_yAA0A9ErrorCodeO_Say10Foundation3URLVGSgtcSgtF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC14loadMediaFiles7timeout8responseySd_yAA0A9ErrorCodeO_Say10Foundation3URLVGSgtcSgtF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearMediaFiles",
+            "printedName": "clearMediaFiles(response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC15clearMediaFiles8responseyyAA0A9ErrorCodeOcSg_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC15clearMediaFiles8responseyyAA0A9ErrorCodeOcSg_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startOta2800",
+            "printedName": "startOta2800(filePath:with:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC12startOta28008filePath4with3andy10Foundation3URLV_ySi_SitcSgyAA0A9ErrorCodeOcSgtF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC12startOta28008filePath4with3andy10Foundation3URLV_ySi_SitcSgyAA0A9ErrorCodeOcSgtF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startOta45",
+            "printedName": "startOta45(fileInfo:with:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Ota45FileInfo",
+                "printedName": "KapGlassSDK.Ota45FileInfo",
+                "usr": "s:11KapGlassSDK13Ota45FileInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((KapGlassSDK.KapErrorCode) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(KapGlassSDK.KapErrorCode) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KapErrorCode",
+                        "printedName": "KapGlassSDK.KapErrorCode",
+                        "usr": "s:11KapGlassSDK0A9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC10startOta458fileInfo4with3andyAA0f4FileH0V_ySi_SitcSgyAA0A9ErrorCodeOcSgtF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC10startOta458fileInfo4with3andyAA0f4FileH0V_ySi_SitcSgyAA0A9ErrorCodeOcSgtF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "translatorDidStopByUser",
+            "printedName": "translatorDidStopByUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC23translatorDidStopByUseryyF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC23translatorDidStopByUseryyF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "translatorDidReceivedResult",
+            "printedName": "translatorDidReceivedResult(reco_info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecognizeInfo",
+                "printedName": "KapGlassSDK.RecognizeInfo",
+                "usr": "s:11KapGlassSDK13RecognizeInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK0aB7ManagerC27translatorDidReceivedResult9reco_infoyAA13RecognizeInfoV_tF",
+            "mangledName": "$s11KapGlassSDK0aB7ManagerC27translatorDidReceivedResult9reco_infoyAA13RecognizeInfoV_tF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11KapGlassSDK0aB7ManagerC",
+        "mangledName": "$s11KapGlassSDK0aB7ManagerC",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AudioTranslatorListener",
+            "printedName": "AudioTranslatorListener",
+            "usr": "s:11KapGlassSDK23AudioTranslatorListenerP",
+            "mangledName": "$s11KapGlassSDK23AudioTranslatorListenerP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AudioStreamChannel",
+        "printedName": "AudioStreamChannel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "recevieAudioBlock",
+            "printedName": "recevieAudioBlock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.Data) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvp",
+            "mangledName": "$s11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvp",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.Data) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.Data) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvg",
+                "mangledName": "$s11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvg",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Foundation.Data) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.Data) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvs",
+                "mangledName": "$s11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvs",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvM",
+                "mangledName": "$s11KapGlassSDK18AudioStreamChannelC07recevieD5Blocky10Foundation4DataVcSgvM",
+                "moduleName": "KapGlassSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AudioStreamChannel",
+                "printedName": "KapGlassSDK.AudioStreamChannel",
+                "usr": "s:11KapGlassSDK18AudioStreamChannelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11KapGlassSDK18AudioStreamChannelC4portACs6UInt16V_tcfc",
+            "mangledName": "$s11KapGlassSDK18AudioStreamChannelC4portACs6UInt16V_tcfc",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startConnect",
+            "printedName": "startConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK18AudioStreamChannelC12startConnectSbyF",
+            "mangledName": "$s11KapGlassSDK18AudioStreamChannelC12startConnectSbyF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disConnect",
+            "printedName": "disConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11KapGlassSDK18AudioStreamChannelC10disConnectyyF",
+            "mangledName": "$s11KapGlassSDK18AudioStreamChannelC10disConnectyyF",
+            "moduleName": "KapGlassSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11KapGlassSDK18AudioStreamChannelC",
+        "mangledName": "$s11KapGlassSDK18AudioStreamChannelC",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "KapGlassSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/MediaServerApi.swift",
+      "kind": "FloatLiteral",
+      "offset": 447,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/DataChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 968,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/Crc16Handler.swift",
+      "kind": "Array",
+      "offset": 294,
+      "length": 2310,
+      "value": "[0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301, 0x03C0, 0x0280, 0xC241, 0xC601, 0x06C0, 0x0780, 0xC741, 0x0500, 0xC5C1, 0xC481, 0x0440, 0xCC01, 0x0CC0, 0x0D80, 0xCD41, 0x0F00, 0xCFC1, 0xCE81, 0x0E40, 0x0A00, 0xCAC1, 0xCB81, 0x0B40, 0xC901, 0x09C0, 0x0880, 0xC841, 0xD801, 0x18C0, 0x1980, 0xD941, 0x1B00, 0xDBC1, 0xDA81, 0x1A40, 0x1E00, 0xDEC1, 0xDF81, 0x1F40, 0xDD01, 0x1DC0, 0x1C80, 0xDC41, 0x1400, 0xD4C1, 0xD581, 0x1540, 0xD701, 0x17C0, 0x1680, 0xD641, 0xD201, 0x12C0, 0x1380, 0xD341, 0x1100, 0xD1C1, 0xD081, 0x1040, 0xF001, 0x30C0, 0x3180, 0xF141, 0x3300, 0xF3C1, 0xF281, 0x3240, 0x3600, 0xF6C1, 0xF781, 0x3740, 0xF501, 0x35C0, 0x3480, 0xF441, 0x3C00, 0xFCC1, 0xFD81, 0x3D40, 0xFF01, 0x3FC0, 0x3E80, 0xFE41, 0xFA01, 0x3AC0, 0x3B80, 0xFB41, 0x3900, 0xF9C1, 0xF881, 0x3840, 0x2800, 0xE8C1, 0xE981, 0x2940, 0xEB01, 0x2BC0, 0x2A80, 0xEA41, 0xEE01, 0x2EC0, 0x2F80, 0xEF41, 0x2D00, 0xEDC1, 0xEC81, 0x2C40, 0xE401, 0x24C0, 0x2580, 0xE541, 0x2700, 0xE7C1, 0xE681, 0x2640, 0x2200, 0xE2C1, 0xE381, 0x2340, 0xE101, 0x21C0, 0x2080, 0xE041, 0xA001, 0x60C0, 0x6180, 0xA141, 0x6300, 0xA3C1, 0xA281, 0x6240, 0x6600, 0xA6C1, 0xA781, 0x6740, 0xA501, 0x65C0, 0x6480, 0xA441, 0x6C00, 0xACC1, 0xAD81, 0x6D40, 0xAF01, 0x6FC0, 0x6E80, 0xAE41, 0xAA01, 0x6AC0, 0x6B80, 0xAB41, 0x6900, 0xA9C1, 0xA881, 0x6840, 0x7800, 0xB8C1, 0xB981, 0x7940, 0xBB01, 0x7BC0, 0x7A80, 0xBA41, 0xBE01, 0x7EC0, 0x7F80, 0xBF41, 0x7D00, 0xBDC1, 0xBC81, 0x7C40, 0xB401, 0x74C0, 0x7580, 0xB541, 0x7700, 0xB7C1, 0xB681, 0x7640, 0x7200, 0xB2C1, 0xB381, 0x7340, 0xB101, 0x71C0, 0x7080, 0xB041, 0x5000, 0x90C1, 0x9181, 0x5140, 0x9301, 0x53C0, 0x5280, 0x9241, 0x9601, 0x56C0, 0x5780, 0x9741, 0x5500, 0x95C1, 0x9481, 0x5440, 0x9C01, 0x5CC0, 0x5D80, 0x9D41, 0x5F00, 0x9FC1, 0x9E81, 0x5E40, 0x5A00, 0x9AC1, 0x9B81, 0x5B40, 0x9901, 0x59C0, 0x5880, 0x9841, 0x8801, 0x48C0, 0x4980, 0x8941, 0x4B00, 0x8BC1, 0x8A81, 0x4A40, 0x4E00, 0x8EC1, 0x8F81, 0x4F40, 0x8D01, 0x4DC0, 0x4C80, 0x8C41, 0x4400, 0x84C1, 0x8581, 0x4540, 0x8701, 0x47C0, 0x4680, 0x8641, 0x8201, 0x42C0, 0x4380, 0x8341, 0x4100, 0x81C1, 0x8081, 0x4040]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/Crc16Handler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3627,
+      "length": 6,
+      "value": "0xFFFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/Crc16Handler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3996,
+      "length": 6,
+      "value": "0xFFFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/GlassManager.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 9,
+      "value": "\"AIGlass\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/GlassManager.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 11,
+      "value": "\"BES NUTTX\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/GlassManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/TransferService.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 38,
+      "value": "\"04000400-0000-1000-8000-009078563412\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/TransferService.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 38,
+      "value": "\"05000500-0000-1000-8000-009178563412\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/TransferService.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 38,
+      "value": "\"06000600-0000-1000-8000-009278563412\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 209,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 4,
+      "value": "0x07"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 434,
+      "length": 4,
+      "value": "0x08"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 509,
+      "length": 4,
+      "value": "0x21"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 4,
+      "value": "0x09"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 637,
+      "length": 4,
+      "value": "0x0a"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 4,
+      "value": "0x0b"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 4,
+      "value": "0x0c"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 773,
+      "length": 4,
+      "value": "0x0d"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 4,
+      "value": "0x17"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 867,
+      "length": 4,
+      "value": "0x18"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 907,
+      "length": 4,
+      "value": "0x19"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 939,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 4,
+      "value": "0x15"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/Entitys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1676,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/Entitys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1713,
+      "length": 4,
+      "value": "0x80"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/Entitys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1750,
+      "length": 4,
+      "value": "0x40"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/KapGlassSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/KapGlassSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2405,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 228,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 759,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 788,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 857,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "StringLiteral",
+      "offset": 890,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 10,
+      "value": "\"0xFFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 984,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1122,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1147,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1195,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1223,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 8,
+      "value": "\"button\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1303,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1331,
+      "length": 8,
+      "value": "0xFFFFFF"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1486,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1511,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1533,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1588,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1615,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1832,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1864,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1893,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1926,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1962,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 11,
+      "value": "\"container\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/UiNode.swift",
+      "kind": "Array",
+      "offset": 2062,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PatchCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 8,
+      "value": "\"insert\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PatchCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 8,
+      "value": "\"update\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PatchCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 8,
+      "value": "\"remove\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 13,
+      "value": "\"page_create\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 13,
+      "value": "\"page_update\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 14,
+      "value": "\"page_destroy\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
+      "length": 11,
+      "value": "\"page_push\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 2028,
+      "length": 10,
+      "value": "\"page_pop\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 2134,
+      "length": 14,
+      "value": "\"page_replace\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 15,
+      "value": "\"pop_to_target\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/RemoteUI\/PageCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
+      "length": 13,
+      "value": "\"clear_stack\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/FileUploader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/AudioStreamChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 840,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 873,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 4,
+      "value": "0x03"
+    }
+  ]
+}
