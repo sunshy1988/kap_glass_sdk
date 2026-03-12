@@ -26,13 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "KapGlassSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -50,13 +43,6 @@
       },
       {
         "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "KapGlassSDK"
-      },
-      {
-        "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
@@ -64,13 +50,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "KapGlassSDK"
       },
       {
         "kind": "Import",
@@ -98,13 +77,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "KapGlassSDK"
       },
       {
         "kind": "Import",
@@ -3486,13 +3458,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "os",
-        "printedName": "os",
-        "declKind": "Import",
-        "moduleName": "KapGlassSDK"
       }
     ],
     "json_format_version": 8
@@ -3508,7 +3473,7 @@
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/DataChannel.swift",
       "kind": "IntegerLiteral",
-      "offset": 968,
+      "offset": 958,
       "length": 1,
       "value": "0"
     },
@@ -3536,21 +3501,21 @@
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/GlassManager.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 633,
       "length": 9,
       "value": "\"AIGlass\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/GlassManager.swift",
       "kind": "StringLiteral",
-      "offset": 688,
+      "offset": 678,
       "length": 11,
       "value": "\"BES NUTTX\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/GlassManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 779,
+      "offset": 769,
       "length": 5,
       "value": "false"
     },
@@ -4110,21 +4075,21 @@
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandChannel.swift",
       "kind": "IntegerLiteral",
-      "offset": 840,
+      "offset": 830,
       "length": 4,
       "value": "0x10"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandChannel.swift",
       "kind": "IntegerLiteral",
-      "offset": 873,
+      "offset": 863,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/KapGlassSample\/KapGlassSDK\/Core\/CommandChannel.swift",
       "kind": "IntegerLiteral",
-      "offset": 906,
+      "offset": 896,
       "length": 4,
       "value": "0x03"
     }
