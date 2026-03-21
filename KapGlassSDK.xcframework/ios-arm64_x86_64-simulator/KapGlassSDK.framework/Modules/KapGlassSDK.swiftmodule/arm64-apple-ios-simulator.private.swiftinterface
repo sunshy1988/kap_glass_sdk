@@ -14,6 +14,50 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+public enum MetadataType : Swift.UInt8 {
+  case unknown
+  case txt
+  case image
+  case audio
+  case binay
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.UInt8)
+  #endif
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public struct MetadataFlags : Swift.OptionSet {
+  public let rawValue: Swift.UInt8
+  public init(rawValue: Swift.UInt8)
+  public typealias ArrayLiteralElement = KapGlassSDK.MetadataFlags
+  public typealias Element = KapGlassSDK.MetadataFlags
+  public typealias RawValue = Swift.UInt8
+}
+public struct FileMetadata {
+  public var version: Swift.UInt8
+  public var flags: KapGlassSDK.MetadataFlags
+  public var type: KapGlassSDK.MetadataType
+  public var fileNameLen: Swift.UInt8
+  public var filename: Swift.String?
+  public var fileSize: Swift.UInt32
+  public var timestamp: Swift.UInt32
+}
+public struct FilePackage {
+  public var metadata: KapGlassSDK.FileMetadata {
+    get
+  }
+  public var fileBinary: Foundation.Data {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(fromLocalFile url: Foundation.URL, replaceFileName: Swift.String?) throws
+  #endif
+  public func serialize() -> Foundation.Data
+  public func writeFile(to dir: Foundation.URL) throws -> Foundation.URL
+  public static func deserialize(from data: Foundation.Data) throws -> KapGlassSDK.FilePackage
+}
 public struct WifiInfo : Swift.Codable {
   public var ssid: Swift.String
   public var password: Swift.String
@@ -53,6 +97,9 @@ public protocol AudioTranslatorListener : AnyObject {
   func translatorDidStopByUser()
   func translatorDidReceivedResult(reco_info: KapGlassSDK.RecognizeInfo)
 }
+public protocol FileReceiver : AnyObject {
+  func didReceivedFile(metadata: KapGlassSDK.FileMetadata, path: Foundation.URL)
+}
 public protocol KapGlassManagerDelegate : AnyObject {
   func glassManagerDidStartScan(_ manager: KapGlassSDK.KapGlassManager)
   func glassManagerDidStopScan(_ manager: KapGlassSDK.KapGlassManager)
@@ -72,6 +119,8 @@ public protocol KapGlassManagerDelegate : AnyObject {
 public enum KapErrorCode : Swift.Int {
   case kSuccessed
   case kUnknowError
+  case kFileTooLarge
+  case openFileFaild
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
   #endif
@@ -84,6 +133,7 @@ public enum KapErrorCode : Swift.Int {
   public static let shareInstance: KapGlassSDK.KapGlassManager
   weak public var delegate: (any KapGlassSDK.KapGlassManagerDelegate)?
   weak public var audioTranslator: (any KapGlassSDK.AudioTranslator)?
+  weak public var fileReceiver: (any KapGlassSDK.FileReceiver)?
   public func startScanGlass() -> KapGlassSDK.KapErrorCode
   public func stopScanGlass() -> KapGlassSDK.KapErrorCode
   #if compiler(>=5.3) && $NonescapableTypes
@@ -127,6 +177,18 @@ public enum KapErrorCode : Swift.Int {
   #if compiler(>=5.3) && $NonescapableTypes
   public func startOta45(fileInfo: KapGlassSDK.Ota45FileInfo, with progress: KapGlassSDK.KapGlassManager.OTAProgressBlock?, and complete: KapGlassSDK.KapGlassManager.OTACompleteBlock?)
   #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func createTemplatePage(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func sendPageJson(pageJson: Swift.String, response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func sendPageResourceFile(path: Foundation.URL, replaceFileName: Swift.String? = nil, response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func sendCustomCmd(response: KapGlassSDK.KapGlassManager.Response?)
+  #endif
   @objc deinit
 }
 extension KapGlassSDK.KapGlassManager : KapGlassSDK.AudioTranslatorListener {
@@ -141,6 +203,9 @@ public class AudioStreamChannel {
   public func startConnect() -> Swift.Bool
   public func disConnect()
 }
+extension KapGlassSDK.MetadataType : Swift.Equatable {}
+extension KapGlassSDK.MetadataType : Swift.Hashable {}
+extension KapGlassSDK.MetadataType : Swift.RawRepresentable {}
 extension KapGlassSDK.KapErrorCode : Swift.Equatable {}
 extension KapGlassSDK.KapErrorCode : Swift.Hashable {}
 extension KapGlassSDK.KapErrorCode : Swift.RawRepresentable {}

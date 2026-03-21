@@ -6,47 +6,47 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		/hQcD0tZgUpCV6jOyIm8PvQOEug=
+		XHanpw7eQOiPSP1tc4awGHxJ1wE=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uNhAFGX6hMCW1zsmeg6xnDKP72Q=
+		f4JD7KZON91GMIkLLy9D4936pD4=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m4OfDm0L4MbT+AE38U29JJMZeYc=
+		qT4Y2Pl/BNA639prezbNMfDJoo8=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NbNUcfo8uYcgHTZib8ROcAMjns0=
+		pybgrDd5IOaf2wS6sqJVLnqNgOs=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m4OfDm0L4MbT+AE38U29JJMZeYc=
+		qT4Y2Pl/BNA639prezbNMfDJoo8=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/iwwYqQ+ypFQY1SHPZs8V2It+KU=
+		2/pCt9bTmVyGHFaK5EwWilrsnEE=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uNhAFGX6hMCW1zsmeg6xnDKP72Q=
+		f4JD7KZON91GMIkLLy9D4936pD4=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		amK+B4G2gLfebZ8eFkOw3scOU5o=
+		k0MC/bBXlwSExp2yjjZfV8tZ1gk=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GHuah1P916B2xmFyq32LwF8q2Uw=
+		JBffM/FwfcEmftkjh5F1VR/2ahc=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		amK+B4G2gLfebZ8eFkOw3scOU5o=
+		k0MC/bBXlwSExp2yjjZfV8tZ1gk=
 		</data>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oorUPJYNnbhYJJx9jIB88LxgBk0=
+		DnIV+WFjomitz+pU1EfZhn9cfM8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgfjyUMpNcRm6JGjQI+sgNZ3hqM2WWlYxtpDaN5qp5Q=
+			M0FrJa0kuSF8HHBfMn3IbA3H65r7NoUzxO3JOSBzT/M=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yO+Zb34sSSjQa2BLawH5TeER1cYHrYs8lPVYRr7lVGU=
+			ae7boYjVG7UQvslpdu0cXea4tpGPA72xD52cnS8VJiU=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bo8gKu0Z0z9W7cNscKjKHCiozPwWVTmH9i4Y+Tb7F+8=
+			We1720yNyCv4RZkbd/WxEzAz2cSdQWOE7t+wJx+E4uc=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yO+Zb34sSSjQa2BLawH5TeER1cYHrYs8lPVYRr7lVGU=
+			ae7boYjVG7UQvslpdu0cXea4tpGPA72xD52cnS8VJiU=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uk6Tl2bsls/+lKuMEwXGy5kZtuZIw8R+sizGq/3MRlw=
+			iMKcb4ZUqFeBYWDgQcdRYSN47R0TjNkSduGm55w3igE=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgfjyUMpNcRm6JGjQI+sgNZ3hqM2WWlYxtpDaN5qp5Q=
+			M0FrJa0kuSF8HHBfMn3IbA3H65r7NoUzxO3JOSBzT/M=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4RNswW8+UysWNAqKztJLBqxg62XQ50wYXdFBjzitEQg=
+			6HgKm8myfxcfM1FQ4Eym9NUT6W2uO4hqrBKDae4JPtI=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zeQPzpLgMJN0Jl/XQBAs6TbFnUb3hAUkgdnCyV+HW2k=
+			//SeNrILiHu2vGuSRFscK2gP0ZdjXJGNelaCeJ8fJVc=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4RNswW8+UysWNAqKztJLBqxg62XQ50wYXdFBjzitEQg=
+			6HgKm8myfxcfM1FQ4Eym9NUT6W2uO4hqrBKDae4JPtI=
 			</data>
 		</dict>
 		<key>Modules/KapGlassSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tbofYpzb/OPRm2AFKZCUTz2hkS9+2GG0P70wyR4+02E=
+			HbIsg5yBN1JbV3L1k1rTbFAFTxvwYvV9G1x3pJVa6Pw=
 			</data>
 		</dict>
 	</dict>
